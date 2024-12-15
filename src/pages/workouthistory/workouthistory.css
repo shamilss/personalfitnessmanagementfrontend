@@ -1,0 +1,89 @@
+/* Calendar Container */
+.calendar-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+   color: #340860;
+   background-color: #340860;
+  }
+  
+  .calendar-header {
+    text-align: center;
+    font-size: 2em;
+    color:#f9f7fb;
+    margin-bottom: 20px;
+  }
+  
+  /* Event Styles */
+  .rbc-event {
+    background-color: #007bff ;
+    color: white ;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .rbc-event:hover {
+    background-color: #340860 ;
+    transform: scale(1.05);
+  }
+  
+  /* Selected Slot */
+  .rbc-selected {
+    background-color: #d3f8d3 ;
+  
+  }
+  
+  
+  
+  .rbc-toolbar {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    
+  }
+  
+  .rbc-toolbar button {
+    background: #340860;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .rbc-toolbar button:hover {
+    background:#340860;
+  }
+  
+  .rbc-today {
+    background: #eaf4ff;
+    
+  }
+  
+  .rbc-month-view {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .rbc-header {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  .back{
+ 
+    background: url("https://theironoffice.com/cdn/shop/files/Gym_12.23-19.jpg?v=1701994187&width=3840;") no-repeat center center/cover;
+    min-height: 100vh;
+    padding: 1px;
+   
+  }
